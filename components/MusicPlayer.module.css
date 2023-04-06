@@ -1,0 +1,49 @@
+.button-player {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+.music-player-left-part {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  min-width: 20%;
+}
+.music-player-right-part {
+  width: fit-content;
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0%;
+}
+.music-player-middle-part {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.button-volume {
+  background-color: transparent;
+  border-color: transparent;
+}
+.icon-prev {
+  margin-right: 5%; /* Ajustez la valeur en fonction de l'écart souhaité */
+}
+
+.icon-next {
+  margin-left: 5%; /* Ajustez la valeur en fonction de l'écart souhaité */
+}
+.button-player {
+  border-color: black;
+  border-style: groove;
+  border-radius: 10px;
+}
+
+.play-button:hover {
+  color: darkgreen;
+}

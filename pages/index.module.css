@@ -1,0 +1,59 @@
+.main-title {
+  font-style: italic;
+  text-align: center;
+  font-size: 185%;
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+}
+.main-text-home-page {
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-page {
+  text-align: center;
+  justify-content: center;
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+}
+
+.sous-titre-home-page {
+  text-align: justify;
+  font-style: italic;
+  color: darkgreen;
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  font-size: 105%;
+}
+
+.main-text-home-page {
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  font-size: small;
+  text-align: justify;
+}
+
+.mot-mise-evidence {
+  color: darkgreen;
+  font-weight: bold;
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  margin-left: 5%;
+  line-height: 200%;
+}
+
+.pilier-islam-home-page {
+  list-style: circle;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align: justify;
+  font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.indonesie-pays:hover{
+  
+}
