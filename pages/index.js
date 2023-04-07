@@ -1,7 +1,8 @@
 import styles from "../pages/index.module.css";
 import React from "react";
+import { Text } from "@mantine/core";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={`${styles["main-page"]}`}>
       <h1 className={`${styles["main-title"]}`}>Mon Islam</h1>
@@ -63,7 +64,8 @@ export default function Home() {
         message du prophète, l'Islam s'est répandu dans le monde entier.
         Aujourd'hui, un cinquième des musulmans est de langue arabe,
         majoritairement présents en
-        <text>
+        </p>
+        <Text >
           <ul className={`${styles["mot-mise-evidence"]}`}>
             <li className={`${styles["indonesie-pays"]}`}>Indonésie</li>
             <li>Pakistan</li>
@@ -73,8 +75,9 @@ export default function Home() {
             <li>Egypte</li>
             <li>Nigeria</li>
           </ul>
-        </text>
-      </p>
+        </Text>
     </div>
   );
 }
+
+export default Home;

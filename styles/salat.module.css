@@ -1,0 +1,113 @@
+/* .salat-master {
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif !important;
+  }
+  
+  .salat-day {
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+  }
+
+  .salat-title {
+    text-align: center;
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif !important;
+    font-size: 160%;
+  } */
+
+  /* Définir les styles pour la section principale */
+  .salat-master {
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Définir les styles pour le titre */
+  .salat-title {
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Définir les styles pour la section de la journée */
+  .salat-day {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  }
+  
+  /* Définir les styles pour chaque horaire de prière */
+  .salat-fajr,
+  .salat-duhr,
+  .salat-asr,
+  .salat-maghrib,
+  .salat-isha {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-family: Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif !important;
+  }
+  
+  .salat-fajr {
+    background-color: #d91111e2;
+    background: linear-gradient(
+      to left,
+     
+    
+    
+    );
+    border:1px  solid black;
+  
+    
+  }
+  
+  .salat-duhr {
+    background-color: #2980b9;
+  }
+  
+  .salat-asr {
+    background-color: #27ae60;
+  }
+  
+  .salat-maghrib {
+    background-color: #f39c12;
+  }
+  
+  .salat-isha {
+    /* background-color: #8e44ad; */
+    background: linear-gradient(
+      to left,
+      #f1c40f,
+      #2ecc71,
+      #1abc9c,
+      #3498db,
+      #27ae60,
+      #2980b9
+    );
+  }
+  
+  /* Définir les styles pour l'animation au survol */
+  .salat-fajr:hover,
+  .salat-duhr:hover,
+  .salat-asr:hover,
+  .salat-maghrib:hover,
+  .salat-isha:hover {
+    transform: scale(1.1);
+  }
